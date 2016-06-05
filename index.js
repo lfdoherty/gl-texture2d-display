@@ -41,4 +41,7 @@ function display(tex, scale) {
   shader.uniforms.uTexture  = tex.bind(0)
 
   triangle(gl)
+  //shader.unbind();
+  gl.bindTexture(gl.TEXTURE_2D, null)
+  gl.useProgram(null);
 }
