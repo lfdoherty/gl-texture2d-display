@@ -18,7 +18,7 @@
     "url": "http://hughsk.io/"
   },
   "dependencies": {
-    "a-big-triangle": "^1.0.0",
+    "a-big-triangle": "git+https://github.com/lfdoherty/a-big-triangle.git",
     "glslify": "^1.6.0",
     "weakmap": "0.0.6"
   },
