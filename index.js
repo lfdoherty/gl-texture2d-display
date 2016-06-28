@@ -1,4 +1,4 @@
-var triangle = require('a-big-triangle')
+var triangle = require('@lfdoherty/fast-big-triangle')
 var glslify  = require('glslify')
 var WMap     = typeof WeakMap === 'undefined'
   ? require('weakmap')

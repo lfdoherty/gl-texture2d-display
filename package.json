@@ -1,5 +1,5 @@
 {
-  "name": "gl-texture2d-display",
+  "name": "@lfdoherty/gl-texture2d-display",
   "version": "1.0.0",
   "description": "Displays a given gl-texture2d on your screen. Useful for debugging.",
   "main": "index.js",
@@ -18,21 +18,21 @@
     "url": "http://hughsk.io/"
   },
   "dependencies": {
-    "a-big-triangle": "git+https://github.com/lfdoherty/a-big-triangle.git",
+    "@lfdoherty/fast-big-triangle": "^0.2.0",
     "glslify": "^1.6.0",
     "weakmap": "0.0.6"
   },
   "devDependencies": {
+    "@lfdoherty/gl-texture2d": "^3.0.2",
+    "baboon-image": "^1.0.0",
     "beefy": "^2.1.1",
     "browserify": "^5.11.2",
     "canvas-fit": "^1.2.0",
-    "gl-context": "^0.1.1",
-    "gl-texture2d": "^2.0.4",
-    "lena": "^1.0.0"
+    "gl-context": "^0.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/gl-texture2d-display.git"
+    "url": "git://github.com/lfdoherty/gl-texture2d-display.git"
   },
   "keywords": [
     "gl",
@@ -42,8 +42,5 @@
     "2d",
     "display"
   ],
-  "homepage": "https://github.com/hughsk/gl-texture2d-display",
-  "bugs": {
-    "url": "https://github.com/hughsk/gl-texture2d-display/issues"
-  }
+  "homepage": "https://github.com/lfdoherty/gl-texture2d-display"
 }
