@@ -1,6 +1,6 @@
 {
   "name": "@lfdoherty/gl-texture2d-display",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Displays a given gl-texture2d on your screen. Useful for debugging.",
   "main": "index.js",
   "license": "MIT",
@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@lfdoherty/fast-big-triangle": "^0.2.0",
-    "glslify": "^1.6.0",
+    "@lfdoherty/gl-shader": "^4.2.0",
+    "glslify": "^5.1.0",
     "weakmap": "0.0.6"
   },
   "devDependencies": {
